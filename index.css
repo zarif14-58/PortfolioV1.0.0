@@ -1,0 +1,60 @@
+.jumbotron{
+    margin: 0px auto;
+    padding: 70px 30px;
+}
+
+#me{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+body{
+    background: #1f1f2e;
+}
+
+#about{
+    margin: 0px auto;
+  padding: 50px 0px;
+}
+
+#html{
+    width: 50px;
+    height: 50px;
+}
+
+#css{
+    width: 56px;
+    height: 50px;
+}
+
+#js{
+    width: 45px;
+    height: 45px;
+}
+
+#bts{
+    width: 50px;
+    height: 50px;
+}
+
+#rct{
+    width: 50px;
+    height: 50px;
+}
+
+#sass{
+    width: 50px;
+    height: 50px;
+}
+
+#jq{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    #projects{
+        margin-left: 22px;
+    }
+  }

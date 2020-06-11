@@ -6,9 +6,237 @@
         <meta http-equiv="X-UA-compitable" content="ie=edge" />
 
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="index.css" />
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Jarif's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <header class="jumbotron bg-dark text-white">
+                <h1 class="display-4 text-center">Hi! I'm Jarif,</h1>
+                <h1 class="display-5 text-center">Your Friendly Neighbourhood</h1>
+                <h1 class="display-5 text-center">Front-End Web Developer</h1>
+          </header>
+
+          <div class="container" id="about">
+              <div class="row justify-content-center align-items-center">
+                  <div class="col-12 col-sm-12 text-center">
+                      <img src="me.png" id="me" alt="myPic" class="img-fluid">
+                  </div>
+                  <div class="col-10 col-sm-7">
+                      <h4 class="text-light">Hi! I'm Ahmed Ayman Jarif, a Front-End web developer.<br>
+                    I'm currently a student at Khulna University of Enginnering & Technology.<br>
+                I'm passionate about Web Development and Web Design.<br>
+            I'm looking forward to developing interesting sites and apps :)</h4>
+                </div>
+                    <div class="col-11 col-sm-10">
+                        <hr class="bg-light">
+                    </div>
+                  
+                </div>
+            </div>
+
+        <div class="container" id="skills">
+        <div class="row justify-content-center align-items-center">
+                <img src="html5.png" id="html">
+                <div class="col-8 col-sm-6">
+                    
+            <div class="progress"> 
+                <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+            </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <img src="css.png" id="css">
+            <div class="col-8 col-sm-6">
+                <div class="progress"> 
+                    <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <img src="js1.png" id="js">
+            <div class="col-8 col-sm-6">
+                <div class="progress"> 
+                    <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <img src="bts.png" id="bts">
+            <div class="col-8 col-sm-6">
+                <div class="progress"> 
+                    <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <img src="react.png" id="rct">
+            <div class="col-8 col-sm-6">
+                <div class="progress"> 
+                    <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <img src="sass.png" id="sass">
+            <div class="col-8 col-sm-6">
+                <div class="progress"> 
+                    <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <img src="jq.png" id="jq">
+            <div class="col-8 col-sm-6">
+                <div class="progress"> 
+                    <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-11 col-sm-10">
+                <hr class="bg-light">
+            </div>
+        </div>
+        </div>
+
+        <div class="container" id="projects">
+            <div class="row justify-content-center mb-4">
+                <div class="col-12 col-sm-7">
+                    <div class="card-deck align-items-center">
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="lame.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">LameDictionary</h5>
+                          <p class="card-text">An online dictionary build by fetching a web API and by using Bootstrap for responsive design.</p>
+                          <a target="_blank" rel="noopener noreferrer" href="https://lamedict.netlify.app/" class="btn btn-primary">View Project</a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/zarif14-58/lameDictionary.git" class="btn btn-success">Project Code</a>
+                        </div>
+                      </div>
+                    
+                    
+                      <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="weather.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">WeatherApp</h5>
+                          <p class="card-text">A simple weather app which shows the temperature and the summary of the weather.</p>
+                          <a target="_blank" rel="noopener noreferrer" href="https://lameweather.netlify.app/" class="btn btn-primary">View Project</a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/zarif14-58/WeatherAppJarif.git" class="btn btn-success">Project Code</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row justify-content-center mb-1">
+                <div class="col-12 col-sm-10">
+                    <div class="card-deck align-items-center">
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="clock.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">AnalogClock</h5>
+                          <p class="card-text">An analog clock build using little bit of CSS and JavaScript. It also has a digital section.</p>
+                          <a target="_blank" rel="noopener noreferrer" href="https://zclock.netlify.app/" class="btn btn-primary">View Project</a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/zarif14-58/analogClock.git" class="btn btn-success">Project Code</a>
+                        </div>
+                      </div>
+                    
+                    
+                      <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="mrk.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">MarkdownPreviewer</h5>
+                          <p class="card-text">A simple markdown previewer, developed using React. It's also part of my freeCodeCamp projects.</p>
+                          <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/loneWolf_58/full/KKdxbEL" class="btn btn-primary">View Project</a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/loneWolf_58/pen/KKdxbEL" class="btn btn-success">Project Code</a>
+                        </div>
+                      </div>
+
+                      <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="blog.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Jarif's Blog</h5>
+                          <p class="card-text">A blogging site about Movies, TV Series and Books. Build from scratch using HTML5 & CSS3.</p>
+                          <a target="_blank" rel="noopener noreferrer" href="https://jarifsblog.netlify.app/" class="btn btn-primary">View Project</a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/zarif14-58/zarif14-58.github.io.git" class="btn btn-success">Project Code</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-11 col-sm-10">
+                    <hr class="bg-light">
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="contact">
+        <form name="contact" netlify>
+            <div class="form-row justify-content-center">
+              <div class="col-10 col-sm-4 mb-1">
+                <input type="text" class="form-control bg-dark text-light" placeholder="Name" name="name">
+              </div>
+              <div class="col-10 col-sm-4 mb-1">
+                <input type="email" class="form-control bg-dark text-light" placeholder="Email" name="email">
+              </div>
+              <div class="col-10 col-sm-8 mb-1">
+                <input type="text" class="form-control bg-dark text-light" placeholder="Subject" name="subject">
+              </div>
+              <div class="col-10 col-sm-8 mb-3">
+                <textarea class="form-control bg-dark text-light" id="fbck" name="fbck" rows="5" placeholder="Message" name="msg"></textarea>
+              </div>
+              <div class="col-10 col-sm-8 mb-4">
+              <button type="submit" class="btn btn-success">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="text-center">
+            <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/ahmedayman.jarif"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/ahmed-ayman-jarif-6116a71a8"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-social-icon btn-twitter" href="https://www.twitter.com/@AhmedJarif3"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-google" href="mailto:a.jevan14nzs@gmail.com"><i class="fa fa-envelope-o"></i></a>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-11 col-sm-10">
+                    <hr class="bg-light">
+                </div>
+            </div>
+        </div>
 
 
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
